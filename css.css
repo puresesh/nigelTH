@@ -1,0 +1,81 @@
+@keyframes color {
+  0%   { background: #4d4d4d; }
+  5%   { background: #3b3540; }
+  40%  { background: #282340; }
+  60%  { background: #2d2633; }
+  80%  { background: #302b33; }
+  100% { background: #4d4d4d; }
+}
+
+@keyframes colorpurp {
+  0%   { background: #4d4d4d; }
+  5%   { background: #3b3540; }
+  40%  { background: #282340; }
+  60%  { background: #2d2633; }
+  80%  { background: #302b33; }
+  100% { background: #4d4d4d; }
+}
+
+.fixthispls {
+    
+    position:absolute;
+    right:10%;    
+}
+
+
+.profile-header {display:none;}
+.profile-gallery-title {display:none;}
+.profile-content-title {display:none;}
+.behindstuff{
+    
+    position:absolute;
+    top: -100px;
+    left:-0px;
+    width:3000px;
+    height:100px;    
+}
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 15s infinite linear;
+  overflow:hidden;
+}
+h1 {
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+}
+
+a {
+    
+    color:#a678ef;
+    
+}
+
+.profile-gallery-content{display:none;}
+.sidebar {
+        background-color:#393939;
+        display:none;
+    
+}
+
+.header {
+        background-color:#393939;
+        
+        .li {
+            
+            background-color:#393939;
+            
+        }
+    
+}
+
+.navbar-nav {
+    
+        color:#a678ef;
+    
+}
+
+.navbar-brand {
+    color:#a678ef;
+    background-color = #393939;
+}
